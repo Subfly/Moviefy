@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C623461C29470DE1001A75F1 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623461B29470DE1001A75F1 /* Welcome.swift */; };
+		C623461F29470E00001A75F1 /* SearchAny.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623461E29470E00001A75F1 /* SearchAny.swift */; };
+		C623462229470E13001A75F1 /* SaveForLater.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623462129470E13001A75F1 /* SaveForLater.swift */; };
+		C623462429470E28001A75F1 /* ShareWithFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623462329470E28001A75F1 /* ShareWithFriends.swift */; };
+		C623462629470E38001A75F1 /* DiscussWithCommunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623462529470E38001A75F1 /* DiscussWithCommunity.swift */; };
+		C623462829470E49001A75F1 /* GetStarted.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623462729470E49001A75F1 /* GetStarted.swift */; };
+		C623463129470ED8001A75F1 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623463029470ED8001A75F1 /* OnBoardingView.swift */; };
+		C623463329470EE3001A75F1 /* OnBoardingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623463229470EE3001A75F1 /* OnBoardingVM.swift */; };
+		C623463529470EF4001A75F1 /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623463429470EF4001A75F1 /* SplashVM.swift */; };
+		C623463729470F0F001A75F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623463629470F0F001A75F1 /* HomeView.swift */; };
+		C623463929470F18001A75F1 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623463829470F18001A75F1 /* HomeVM.swift */; };
 		C657CB7629463D8100D5E7E1 /* MoviefyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CB7529463D8100D5E7E1 /* MoviefyApp.swift */; };
-		C657CB7829463D8100D5E7E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CB7729463D8100D5E7E1 /* ContentView.swift */; };
 		C657CB7A29463D8200D5E7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657CB7929463D8200D5E7E1 /* Assets.xcassets */; };
 		C657CB7D29463D8200D5E7E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C657CB7C29463D8200D5E7E1 /* Preview Assets.xcassets */; };
 		C657CB8729463D8200D5E7E1 /* MoviefyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CB8629463D8200D5E7E1 /* MoviefyTests.swift */; };
 		C657CB9129463D8200D5E7E1 /* MoviefyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CB9029463D8200D5E7E1 /* MoviefyUITests.swift */; };
 		C657CB9329463D8200D5E7E1 /* MoviefyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CB9229463D8200D5E7E1 /* MoviefyUITestsLaunchTests.swift */; };
+		C657CBAB2946566400D5E7E1 /* AppPreferencesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CBAA2946566400D5E7E1 /* AppPreferencesConstants.swift */; };
+		C657CBAD2946582900D5E7E1 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657CBAC2946582900D5E7E1 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C623461B29470DE1001A75F1 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		C623461E29470E00001A75F1 /* SearchAny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAny.swift; sourceTree = "<group>"; };
+		C623462129470E13001A75F1 /* SaveForLater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveForLater.swift; sourceTree = "<group>"; };
+		C623462329470E28001A75F1 /* ShareWithFriends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareWithFriends.swift; sourceTree = "<group>"; };
+		C623462529470E38001A75F1 /* DiscussWithCommunity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscussWithCommunity.swift; sourceTree = "<group>"; };
+		C623462729470E49001A75F1 /* GetStarted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStarted.swift; sourceTree = "<group>"; };
+		C623463029470ED8001A75F1 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		C623463229470EE3001A75F1 /* OnBoardingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingVM.swift; sourceTree = "<group>"; };
+		C623463429470EF4001A75F1 /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		C623463629470F0F001A75F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C623463829470F18001A75F1 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		C657CB7229463D8100D5E7E1 /* Moviefy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moviefy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C657CB7529463D8100D5E7E1 /* MoviefyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviefyApp.swift; sourceTree = "<group>"; };
-		C657CB7729463D8100D5E7E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C657CB7929463D8200D5E7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C657CB7C29463D8200D5E7E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C657CB8229463D8200D5E7E1 /* MoviefyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviefyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +66,8 @@
 		C657CB8C29463D8200D5E7E1 /* MoviefyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoviefyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C657CB9029463D8200D5E7E1 /* MoviefyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviefyUITests.swift; sourceTree = "<group>"; };
 		C657CB9229463D8200D5E7E1 /* MoviefyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviefyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C657CBAA2946566400D5E7E1 /* AppPreferencesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPreferencesConstants.swift; sourceTree = "<group>"; };
+		C657CBAC2946582900D5E7E1 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C623461A29470DB8001A75F1 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				C623462E29470EB6001A75F1 /* Pages */,
+				C623463029470ED8001A75F1 /* OnBoardingView.swift */,
+				C623463229470EE3001A75F1 /* OnBoardingVM.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		C623462929470E54001A75F1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C623462D29470E79001A75F1 /* ActivateAccount */,
+				C623462C29470E6B001A75F1 /* ForgetPassword */,
+				C623462A29470E5D001A75F1 /* SignIn */,
+				C623462B29470E63001A75F1 /* SignUp */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C623462A29470E5D001A75F1 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		C623462B29470E63001A75F1 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		C623462C29470E6B001A75F1 /* ForgetPassword */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPassword;
+			sourceTree = "<group>";
+		};
+		C623462D29470E79001A75F1 /* ActivateAccount */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActivateAccount;
+			sourceTree = "<group>";
+		};
+		C623462E29470EB6001A75F1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				C623461B29470DE1001A75F1 /* Welcome.swift */,
+				C623461E29470E00001A75F1 /* SearchAny.swift */,
+				C623462129470E13001A75F1 /* SaveForLater.swift */,
+				C623462329470E28001A75F1 /* ShareWithFriends.swift */,
+				C623462529470E38001A75F1 /* DiscussWithCommunity.swift */,
+				C623462729470E49001A75F1 /* GetStarted.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
 		C657CB6929463D8100D5E7E1 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +180,14 @@
 		C657CB7429463D8100D5E7E1 /* Moviefy */ = {
 			isa = PBXGroup;
 			children = (
-				C657CB7529463D8100D5E7E1 /* MoviefyApp.swift */,
-				C657CB7729463D8100D5E7E1 /* ContentView.swift */,
-				C657CB7929463D8200D5E7E1 /* Assets.xcassets */,
+				C657CB9F29464D3F00D5E7E1 /* App */,
+				C657CBA029464D8500D5E7E1 /* Assets */,
+				C657CBA429464DF400D5E7E1 /* Common */,
+				C657CBA329464DEC00D5E7E1 /* Data */,
+				C657CBA229464DE400D5E7E1 /* Domain */,
+				C657CBA129464DD900D5E7E1 /* Presentation */,
 				C657CB7B29463D8200D5E7E1 /* Preview Content */,
+				C657CBA529464DFC00D5E7E1 /* Utils */,
 			);
 			path = Moviefy;
 			sourceTree = "<group>";
@@ -125,6 +215,88 @@
 				C657CB9229463D8200D5E7E1 /* MoviefyUITestsLaunchTests.swift */,
 			);
 			path = MoviefyUITests;
+			sourceTree = "<group>";
+		};
+		C657CB9F29464D3F00D5E7E1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C657CB7529463D8100D5E7E1 /* MoviefyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C657CBA029464D8500D5E7E1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C657CB7929463D8200D5E7E1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C657CBA129464DD900D5E7E1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C623462929470E54001A75F1 /* Auth */,
+				C623461A29470DB8001A75F1 /* OnBoarding */,
+				C657CBA729464E1900D5E7E1 /* Home */,
+				C657CBA629464E0B00D5E7E1 /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		C657CBA229464DE400D5E7E1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C657CBA329464DEC00D5E7E1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C657CBA429464DF400D5E7E1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C657CBA92946565200D5E7E1 /* Constants */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C657CBA529464DFC00D5E7E1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C657CBA629464E0B00D5E7E1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				C657CBAC2946582900D5E7E1 /* SplashView.swift */,
+				C623463429470EF4001A75F1 /* SplashVM.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		C657CBA729464E1900D5E7E1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C623463629470F0F001A75F1 /* HomeView.swift */,
+				C623463829470F18001A75F1 /* HomeVM.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C657CBA92946565200D5E7E1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C657CBAA2946566400D5E7E1 /* AppPreferencesConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +429,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C657CB7829463D8100D5E7E1 /* ContentView.swift in Sources */,
+				C623462829470E49001A75F1 /* GetStarted.swift in Sources */,
+				C623461C29470DE1001A75F1 /* Welcome.swift in Sources */,
+				C623463729470F0F001A75F1 /* HomeView.swift in Sources */,
+				C623462229470E13001A75F1 /* SaveForLater.swift in Sources */,
+				C623463129470ED8001A75F1 /* OnBoardingView.swift in Sources */,
+				C657CBAB2946566400D5E7E1 /* AppPreferencesConstants.swift in Sources */,
+				C623462429470E28001A75F1 /* ShareWithFriends.swift in Sources */,
+				C623462629470E38001A75F1 /* DiscussWithCommunity.swift in Sources */,
+				C623463329470EE3001A75F1 /* OnBoardingVM.swift in Sources */,
+				C623463929470F18001A75F1 /* HomeVM.swift in Sources */,
+				C623461F29470E00001A75F1 /* SearchAny.swift in Sources */,
 				C657CB7629463D8100D5E7E1 /* MoviefyApp.swift in Sources */,
+				C657CBAD2946582900D5E7E1 /* SplashView.swift in Sources */,
+				C623463529470EF4001A75F1 /* SplashVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
